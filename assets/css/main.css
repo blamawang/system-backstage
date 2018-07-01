@@ -1,0 +1,46 @@
+.navbar{
+   margin-bottom: 0px;
+}
+.headportrait{
+    width: 30px;
+    height: 30px;
+    margin-top: -8px;
+    margin-left: -8px
+}
+/*左侧导航*/
+.nav-left-navbar{
+    width: 14%;
+    height: 100%;
+    margin-top: 53px;
+   /* background-color:#3c763d;*/
+}
+.glyphicon{
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.panel-group {
+    margin-bottom: 0px;
+}
+.panel-group .panel {
+    border-radius: 0px;
+    border-top: 1px solid #ddd;
+}
+.panel-group .panel + .panel {
+    margin-top: 0px;
+}
+.panel-body{
+    padding: 0px;
+}
+.list-group{
+    padding-bottom: 0px;
+}
+.nav-left-fonts{
+    padding-left: 62px;
+}
+/*右侧内容*/
+.content-right{
+    margin-top: 53px;
+    height: 100%;
+    width: 86%;
+    background-color: #168bdc;
+}
