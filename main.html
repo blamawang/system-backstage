@@ -104,49 +104,19 @@
                          </div>
                      </div>
                  </div>
-                <!--<div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion"
-                               href="#collapseFore" class="">
-                                导航
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseFore" class="panel-collapse collapse in">
-                        <div class="panel-body list-group">
-                            <a href="#" class="list-group-item">导航</a>
-                            <a href="#" class="list-group-item">导航</a>
-                            <a href="#" class="list-group-item">导航</a>
-                            <a href="#" class="list-group-item">导航</a>
-                            <a href="#" class="list-group-item">导航</a>
-                        </div>
-                    </div>
-                </div>-->
             </div><!--panel-group-->
         </div><!-- nav-left-navbar -->
+
+        <!--右侧内容-->
         <div class="pull-left content-right">
 
-        </div>
+        </div><!--content-right-->
     </div> <!--main-content-->
 
     <script type="text/javascript" src="dist/js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="dist/js/bootstrap.js"></script>
     <script>
         $(function () {
-           /* alert("height"+$('.navbar').height());
-            alert("width"+$('.navbar').width());
-            alert("innerheight"+$('.navbar').innerHeight());
-            alert("innerwidth"+$('.navbar').innerWidth());
-            alert("outerHeight"+$('.navbar').outerHeight());
-            alert("outerWidth"+$('.navbar').outerWidth());*/
-            // alert("Height-window"+$(window).height());
-            // alert("Height-document"+$(document).height());
-            // alert("Height-window.body"+$(document.body).height());
-            // alert("outerHeight-window.body"+$(document.body).outerHeight());
-            // alert("outerWidth-body"+$('body').outerWidth());
-            // alert("Height-body"+$('body').height());
-            // alert("Height-document"+($(document).height()-$('.navbar').height()));
             $('.nav-left-navbar').height($(document).height()-$('.navbar').height()-1);
             $('.content-right').height($(document).height()-$('.navbar').height()-1);
             $('.content-right').load('home.html');
